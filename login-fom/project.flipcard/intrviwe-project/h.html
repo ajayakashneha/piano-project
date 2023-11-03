@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Player</title>
+    <link rel="stylesheet" href="/h.css">
+</head>
+
+<body>
+    <div class="main-div">
+        <img id="image" src="images/download (4).jpeg" alt="Image">
+        <div class="volume">
+            <input type="range" min="0" max="1" value="0.5" step="any">
+        </div>
+        <div class="div">
+            <img class="previous" src="images/3695054_music_music player_player_previous_icon.png" alt="Previous">
+            <audio src="music/Chhath.mp3" id="audio"></audio>
+            <img class="play" src="images/3695059_music_play_play button_player_icon.png" alt="Play/Pause">
+            <img class="next" src="images/3695045_music_next_next button_player_icon.png" alt="Next">
+        </div>
+    </div>
+    <div>
+        <div id="current-time">0:00</div>
+        <div id="duration">0:00</div>
+    </div>
+    <script src="h.js"></script>
+</body>
+</html>
